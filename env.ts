@@ -1,6 +1,5 @@
 import { config } from "dotenv";
-import { cleanEnv, str, EnvError,
-  EnvMissingError } from "https://deno.land/x/envalid@0.1.2/envalid.ts";
+import { cleanEnv, str } from "envalid";
 
 await config({ export: true });
 
