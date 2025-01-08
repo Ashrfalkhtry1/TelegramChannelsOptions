@@ -1,3 +1,4 @@
 BOT_TOKEN=7637892776:AAG6YX90hEazGQrYjlKSZe1q6pyqMzi-CY0
 OWNERS=1095477203
 MONGO_URL=mongodb+srv://ashrfalkhtry654:5WCV1Tul8zyneLUI@cluster0.6o90p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+BOT_OWNER_ID=1095477203
