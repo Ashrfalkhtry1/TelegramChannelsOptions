@@ -9,6 +9,10 @@ const composer = new Composer<MyContext>();
 const BOT_OWNER_ID = 1095477203;
 
 composer.command("start", async (ctx) => {
+  console.log("Context:", JSON.stringify(ctx, null, 2)); // Log full context object for debugging
+  console.log("User ID:", ctx.from?.id); // Log user ID
+  console.log("Owner ID:", BOT_OWNER_ID); // Log owner ID for comparison
+
   if (ctx.chat.type != "private") return;
 
   // Check if the user is the bot owner
