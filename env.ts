@@ -7,4 +7,5 @@ export default cleanEnv(Deno.env.toObject(), {
   BOT_TOKEN: str(),
   OWNERS: str(),
   MONGO_URL: str(),
+  BOT_OWNER_ID: str(),
 });
